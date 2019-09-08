@@ -21,10 +21,12 @@ if player:
       print("You win!")
     else:
       print("Computer wins!")
-  else:
+  elif player == "scissors":
     if computer == "paper":
       print("You win!")
     else:
       print("Computer wins!")
+  else:
+    print("What's that? Rock, paper, or scissors only!")
 else:
   print("You didn't choose rock, paper, or scissors!")
