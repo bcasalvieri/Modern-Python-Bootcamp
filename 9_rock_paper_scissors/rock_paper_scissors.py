@@ -1,14 +1,13 @@
 from random import randint
 
 # collect player choice
-player = input("rock, paper, or scissors? ")
-player = player.lower()
+player = input("rock, paper, or scissors? ").lower()
 
 # generate computer choice from list and print choice
 choices = ["rock", "paper", "scissors"]
 random_number = randint(0, 2)
 computer = choices[random_number]
-print(f"The computer played: {computer}")
+print(f"The computer plays: {computer}")
 
 
 # if player isn't blank and correct choice made
