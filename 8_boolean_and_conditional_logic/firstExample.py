@@ -1,7 +1,7 @@
 name = input()
 if name == "Arya Stark":
-  print("Valar Morghulis")
+    print("Valar Morghulis")
 elif name == "Jon Snow":
-  print("You know nothing")
+    print("You know nothing")
 else:
-  print("Carry on")
+    print("Carry on")
